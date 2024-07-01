@@ -18,7 +18,7 @@ export default function Contact() {
             href="mailto:eiellea@gmail.com"
             className="text-xl transition-transform duration-500 ease-out cursor-pointer hover:scale-110 hover:bg-gradient-to-r from-gradient-start via-gradient-middle to-gradient-end hover:text-transparent hover:bg-clip-text"
           >
-            eiellea@gmail.com
+            mrowiec.angelika99@gmail.com{" "}
           </a>
         </div>
         <div className="flex flex-col items-center">
