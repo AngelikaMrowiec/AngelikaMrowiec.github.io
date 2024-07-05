@@ -43,7 +43,7 @@ export default function About() {
         </motion.div>
       </div>
       <div className="w-full sm:w-1/3 md:w-1/2 md:p-6 pl-3 lg:pl-6">
-        <p className="w-full lg:w-1/2 md:text-lg text-pretty text-left">
+        <div className="w-full lg:w-1/2 md:text-lg text-pretty text-left">
         I like hiking, gardening, and Japanese literature. Now, I have started a new journey of web-development, and I would like to see where it takes me. 
           <br /> Education: Bachelor's degree in English Philology at the
           <a href="https://ubb.edu.pl"> University of Bielsko-Biała</a>.<br />
@@ -59,7 +59,7 @@ export default function About() {
               className="size-10 md:size-14 transition transform duration-300 ease-in-out hover:scale-110 hover:text-yellow-500"
             />
           </div>
-        </p>
+        </div>
       </div>
     </section>
   );
