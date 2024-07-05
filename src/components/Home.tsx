@@ -19,7 +19,7 @@ export default function Home() {
   });
 
   return (
-    <div className="flex justify-center items-center gap-6 min-h-svh lg:h-screen text-white">
+    <header className="flex justify-center items-center gap-6 min-h-svh lg:h-screen text-white">
       <motion.ul
         ref={ref}
         layout
@@ -53,6 +53,6 @@ export default function Home() {
           contact
         </NavElement>
       </motion.ul>
-    </div>
+    </header>
   );
 }

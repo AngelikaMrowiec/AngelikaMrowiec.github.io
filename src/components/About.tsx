@@ -9,11 +9,11 @@ export default function About() {
   const { innerHeight: height } = window;
 
 
-  const x = width > 850 ? -300 : -100;
+  const x = width > 850 ? -300 : 0;
   const y = height > 850 ? 100 : -100
 
   return (
-    <div
+    <section
       id="about"
       className="flex flex-row justify-center items-center w-full min-h-screen lg:h-screen text-white p-4 lg:p-6"
     >
@@ -61,6 +61,6 @@ export default function About() {
           </div>
         </p>
       </div>
-    </div>
+    </section>
   );
 }

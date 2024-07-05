@@ -10,13 +10,13 @@ export default function Projects() {
   const x = width > 600 ? -300 : -100;
  
   return (
-    <div
+    <section
       id="projects"
       className="relative flex flex-col items-center justify-center min-h-screen lg:h-screen text-white mx-10 p-6 overflow-hidden"
     >
-      <div className="flex flex-col gap-10 lg:flex-row lg:gap-16">
+      <ul className="flex flex-col gap-10 lg:flex-row lg:gap-16">
         <div className="flex flex-col space-y-6 lg:space-y-10">
-          <motion.div
+          <motion.li
             initial={{ x: x, y: 200, opacity: 0, rotate: -30 }}
             whileInView={{
               x: 0,
@@ -38,8 +38,8 @@ export default function Projects() {
                 <li>Tailwind.</li>
               </ul>
             </Project>
-          </motion.div>
-          <motion.div
+          </motion.li>
+          <motion.li
             initial={{ x: 0, y: 0, opacity: 0 }}
             whileInView={{
               x: 0,
@@ -50,11 +50,10 @@ export default function Projects() {
             }}
           >
             <Link urlG="https://github.com/AngelikaMrowiec/training-app" urlL="https://angelikamrowiec.github.io/training-app" />
-          </motion.div>
+          </motion.li>
         </div>
-
         <div className="flex flex-col space-y-6 lg:space-y-10">
-          <motion.div
+          <motion.li
             initial={{ x: 0, y: 300, opacity: 0 }}
             whileInView={{
               x: 0,
@@ -75,8 +74,8 @@ export default function Projects() {
                 <li>Tailwind.</li>
               </ul>
             </Project>
-          </motion.div>
-          <motion.div
+          </motion.li>
+          <motion.li
             initial={{ x: 0, y: 0, opacity: 0 }}
             whileInView={{
               x: 0,
@@ -87,11 +86,10 @@ export default function Projects() {
             }}
           >
             <Link urlG="https://github.com/AngelikaMrowiec/plant-shelf" urlL="https://angelikamrowiec.github.io/plant-shelf" />
-          </motion.div>
+          </motion.li>
         </div>
-
         <div className="flex flex-col space-y-6 lg:space-y-10">
-          <motion.div
+          <motion.li
             initial={{ x: x, y: 200, opacity: 0, rotate: 30 }}
             whileInView={{
               x: 0,
@@ -114,8 +112,8 @@ export default function Projects() {
                 <li>Tailwind.</li>
               </ul>
             </Project>
-          </motion.div>
-          <motion.div
+          </motion.li>
+          <motion.li
             initial={{ x: 0, y: 0, opacity: 0 }}
             whileInView={{
               x: 0,
@@ -126,9 +124,9 @@ export default function Projects() {
             }}
           >
             <Link urlG="https://github.com/AngelikaMrowiec/military-records/" />
-          </motion.div>
+          </motion.li>
         </div>
-      </div>
-    </div>
+      </ul>
+    </section>
   );
 }
