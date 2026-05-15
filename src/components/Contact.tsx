@@ -1,4 +1,3 @@
-import { AiFillGithub } from "react-icons/ai";
 import adventure from "../assets/svgs/adventure.svg";
 import { motion } from "framer-motion";
 
