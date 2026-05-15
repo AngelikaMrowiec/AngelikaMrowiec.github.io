@@ -14,21 +14,13 @@ export default function Contact() {
       <div className="flex flex-col items-center mb-8">
         <h2 className="text-2xl mb-2">Contact me:</h2>
         <a
-          href="mailto:eiellea@gmail.com"
+          href="mailto:angelikasteblik@gmail.com"
           className="text-xl transition-transform duration-500 ease-out cursor-pointer hover:scale-110 hover:bg-gradient-to-r from-gradient-start via-gradient-middle to-gradient-end hover:text-transparent hover:bg-clip-text"
         >
-          mrowiec.angelika99@gmail.com{" "}
+          angelikasteblik@gmail.com{" "}
         </a>
       </div>
-      <div className="flex flex-col items-center">
-        <h2 className="text-2xl mb-2">Find me on:</h2>
-        <a
-          href="https://github.com/AngelikaMrowiec"
-          className="transition transform duration-300 ease-in-out hover:scale-110 hover:text-yellow-500"
-        >
-          <AiFillGithub size={50} />
-        </a>
-      </div>
+     
       <motion.div
         initial={{ x: x, y: 100, opacity: 0, rotate: 0 }}
         whileInView={{

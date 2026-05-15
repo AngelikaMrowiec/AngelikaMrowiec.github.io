@@ -39,8 +39,18 @@ export default function Home() {
             }`}
           />
         </li>
-        <NavElement href="#projects" isTopLeft={isTopLeft}>
-          projects
+        <NavElement href="#experience" isTopLeft={isTopLeft}>
+          experience
+        </NavElement>
+        <li>
+          <div
+            className={`${
+              isTopLeft ? "hidden" : "border border-l-1 border-solid h-4"
+            }`}
+          />
+        </li>
+        <NavElement href="#project" isTopLeft={isTopLeft}>
+          project
         </NavElement>
         <li>
           <div

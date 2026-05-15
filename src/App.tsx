@@ -1,14 +1,16 @@
 import Home from "./components/Home";
 import About from "./components/About";
-import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Example from "./components/Example";
 
 export default function App() {
   return (
     <>
       <Home />
       <About />
-      <Projects />
+      <Experience />
+      <Example />
       <Contact />
     </>
   );

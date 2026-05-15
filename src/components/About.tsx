@@ -1,6 +1,4 @@
 import girl from "../assets/svgs/girl.svg";
-import { FaReact } from "react-icons/fa";
-import { BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 
@@ -24,7 +22,6 @@ export default function About() {
             {" "}
             Angelika
           </span>
-          . I was supposed to be a teacher. Instead, I'm learning to code.
         </h1>
         <motion.div
           initial={{ x: x, y: y, opacity: 0, rotate: -24 }}
@@ -44,23 +41,11 @@ export default function About() {
       </div>
       <div className="w-full sm:w-1/3 md:w-1/2 md:p-6 pl-3 lg:pl-6">
         <div className="w-full lg:w-1/2 md:text-lg text-pretty text-left">
-        I like hiking, gardening, and Japanese literature. Now, I have started a new journey of web-development, and I would like to see where it takes me. 
-          <br /> Education: Bachelor's degree in English Philology at the
+        I am a gardening enthusiast, and my favourite houseplant is the Philodendron 'Micans'. In my spare time, I enjoy hiking and reading Japanese literature.
+          <br /> I graduated with a Bachelor's degree in English Philology from
           <a href="https://ubb.edu.pl"> University of Bielsko-Biała</a>.<br />
-          Skillset:
-          <div className="flex justify-center gap-6 lg:mt-6">
-            <FaReact
-              className="size-10 md:size-14 transition transform duration-300 ease-in-out hover:scale-110 hover:text-yellow-500"
-            />
-            <BiLogoTailwindCss
-              className="size-10 md:size-14 transition transform duration-300 ease-in-out hover:scale-110 hover:text-yellow-500"
-            />
-            <BiLogoTypescript
-              className="size-10 md:size-14 transition transform duration-300 ease-in-out hover:scale-110 hover:text-yellow-500"
-            />
           </div>
         </div>
-      </div>
     </section>
   );
 }
